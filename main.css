@@ -1,4 +1,4 @@
-body {
+ body {
     background: #EDE4E0;
   }
   #heading {
@@ -41,18 +41,17 @@ body {
   }
   footer {
     text-align: center;
+    /* justify-content: center; */
     padding: 3px;
-    background-color: rgb(230, 165, 143);
+    /* background-color: rgb(230, 165, 143); */
     color:black;
-    margin-left: 24px;
-    margin-right: 24px;
+    display: inline;
+    /* flex-direction: column; */
+    
     font-size: x-large;
     line-height: 1%;
   }
-  footer a{
-    text-decoration: none;
-    color:black;
-  }
+  
   .adress{
      display: flex;
 
@@ -63,3 +62,17 @@ body {
   .space{
     margin-left: 23px;
   }
+#author{
+  background-color: rgb(230, 165, 143);
+  height: auto;
+  padding: 2px;
+  text-decoration: none;
+    color:black;
+    /* background-color: rgb(230, 165, 143); */
+    text-align: center;
+    font-size: large;
+}
+.email{
+  text-decoration: none;
+  color: rgb(125 60 2);
+}
