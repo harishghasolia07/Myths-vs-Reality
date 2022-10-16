@@ -1,0 +1,78 @@
+body {
+    background: #EDE4E0;
+  }
+  #heading {
+    color: #759866;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 48%;
+    margin: 5px;
+    height: auto;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+  .MainContainer {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+  .imgDiv {
+    display: flex;
+  }
+  #Typesimg {
+    width: 97%;
+    height: 7%;
+  }
+  footer {
+    text-align: center;
+    /* justify-content: center; */
+    padding: 3px;
+    /* background-color: rgb(230, 165, 143); */
+    color:black;
+    display: inline;
+    /* flex-direction: column; */
+    
+    font-size: x-large;
+    line-height: 1%;
+  }
+  
+  .adress{
+     display: flex;
+
+  }
+  .adress a hover{
+    color:red;
+  }
+  .space{
+    margin-left: 23px;
+  }
+#author{
+  background-color: rgb(230, 165, 143);
+  height: auto;
+  padding: 2px;
+  text-decoration: none;
+    color:black;
+    /* background-color: rgb(230, 165, 143); */
+    text-align: center;
+    font-size: large;
+}
+.email{
+  text-decoration: none;
+  color: rgb(125 60 2);
+}
